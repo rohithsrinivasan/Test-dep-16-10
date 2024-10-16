@@ -5,7 +5,7 @@ from tabula import read_pdf
 import functions as f
 import time
 
-st.set_page_config(page_icon= 'dados/image1.png', page_title= "PDF Extractor", )
+st.set_page_config(page_icon= 'dados/image1.png', page_title= "SymbolGen", )
 
 st.page_link("interface.py", label="Extraction")
 st.page_link("pages/grouping.py", label="Grouping")
